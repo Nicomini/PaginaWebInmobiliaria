@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Minicucci Prop.</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0"
+        nonce="ntwF48kc"></script>
+
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Minicucci Propiedades <i class='bx bxs-home-alt-2'></i>
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list" style="padding-top: 15px;">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#venta" class="nav__link">
+                            <i class='bx bx-building-house'></i>
+                            <span>Venta</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#alq" class="nav__link">
+                            <i class='bx bxs-institution'></i>
+                            <span>Alquileres</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bxs-phone'></i>
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <i class='bx bxs-moon change-theme' style='color:#f4ee87' id="theme-button"></i>
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__data">
+                    <div class="home__images" style="top: 14,5%; left: 11%">
+
+                        <div class="home__imge">
+                            <img src="/img/NEM1.png" width="400px" alt="Minicucccipropiedades">
+                        </div>
+                    </div>
+                    <h1 class="home__title">
+                        Descubré <br> la mejor propiedad <br> para <span>vos</span>!
+                    </h1>
+                    <p class="home__description">
+                        Encuentra la propiedad ideal.
+                    </p>
+
+
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                200 <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Propiedades <br> disponibles
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                300 <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Clientes <br> satisfechos
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="popular section" id="venta">
+            <div class="container">
+                <span class="section__subtitle" style="font-size: 40px"> Nuestra cartelera</span>
+                <h2 class="section__title">
+                    Propiedades en venta<span>.</span>
+                </h2>
+
+                <div class="venta-post">
+                    <input type="radio" id="TODOS" name="categorias" value="TODOS">
+                    <input type="radio" id="1amb" name="categorias" value="1ambiente">
+                    <input type="radio" id="2amb" name="categorias" value="2ambientes">
+                    <input type="radio" id="3amb" name="categorias" value="3ambientes">
+                    <input type="radio" id="terrenos" name="categorias" value="terrenos">
+
+                    <div class="venta-category">
+                        <label class="btn-label" for="TODOS">Todos</label>
+                        <label class="btn-label" for="1amb">1 ambiente</label>
+                        <label class="btn-label" for="2amb">2 ambientes</label>
+                        <label class="btn-label" for="3amb">3 ambientes</label>
+                        <label class="btn-label" for="terrenos">Terrenos</label>
+                    </div>
+
+
+                    <div class="venta">
+
+                        <div class="post" data-category="3amb">
+
+                            <img src="/img/Ventas/Carlos duplex/Carlos - frontal.jpeg" class="popular__img"
+                                alt="Azul4898">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>U$D</span> 70 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Azul N°4898
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p> Vucetich y San Agustin
+                                </p>
+                                <p><i class='bx bxs-bed'> 2</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 1</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 80mt²</i>
+                                </p>
+                                <a href="Azul4898.html"><button>INFO</button></a>
+                            </div>
+                        </div>
+
+                        <div class="post" data-category="terrenos">
+
+                            <img src="/img/Ventas/Terreno.png" class="popular__img" alt="">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>U$D</span> 40 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Rey del bosque s/n
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p> Esq Mandioca</p>
+                                <p>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 2500mt²</i>
+                                </p>
+                                <a href="Terreno.html"><button>INFO</button></a>
+                            </div>
+
+                        </div>
+
+                        <div class="post" data-category="3amb">
+
+                            <img src="/img/Ventas/Casa fd/propiedadfd.jpeg" class="popular__img" alt="">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>U$D</span> 90 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Cap Martinez N°1955
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Compostela y Rivadavia</p>
+                                <p><i class='bx bxs-bed'> 2</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 1</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 200mt²</i>
+                                </p>
+                                <a href="Martinez1955.html"><button>INFO</button></a>
+                            </div>
+
+                        </div>
+
+                        <div class="post" data-category="3amb">
+
+                            <img src="/img/Ventas/Casa Scicilliano/Casa Einst - frontal.jpeg" class="popular__img"
+                                alt="Einstein238">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>U$D</span> 100 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Einstein N°238
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Miranda y Arenales </p>
+                                <p><i class='bx bxs-bed'> 3</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 2</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 220mt²</i>
+                                </p>
+                                <a href="Einstein238.html"><button>INFO</button></a>
+                            </div>
+                        </div>
+
+                        <div class="post" data-category="3amb">
+
+                            <img src="/img/Ventas/Niqui casa - copia/niqifrente.jpg" class="popular__img"
+                                alt="Chacabuco93">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>U$D</span> 100 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Chacabuco N°93
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Miranda y Potosi</p>
+                                <p><i class='bx bxs-bed'> 2</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 1</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 220mt²</i>
+                                </p>
+                                <a href="Chacabuco93.html"><button>INFO</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+        </section>
+
+        <section class="popular section" id="alq">
+            <div class="container">
+                <h2 class="section__title">
+                    Propiedades en alquiler<span>.</span>
+                </h2>
+
+                <div class="alquiler-post">
+                    <input type="radio" id="ALL" name="categorias" value="ALL">
+                    <input type="radio" id="1amba" name="categorias" value="1ambientea">
+                    <input type="radio" id="2amba" name="categorias" value="2ambientesa">
+                    <input type="radio" id="3amba" name="categorias" value="3ambientesa">
+
+                    <div class="alquiler-category">
+                        <label class="btn-label" for="ALL">Todos</label>
+                        <label class="btn-label" for="1amba">1 ambiente</label>
+                        <label class="btn-label" for="2amba">2 ambientes</label>
+                        <label class="btn-label" for="3amba">3 ambientes</label>
+                    </div>
+
+
+                    <div class="alquiler">
+
+                        <div class="post" data-category="2amba">
+
+                            <img src="/img/Alquileres/Dept hugo/Frontal.jpeg" class="popular__img" alt="Einstein356">
+
+                            <div class="popular__data">
+
+                                <h2 class="popular__price">
+                                    <span>$</span> 25 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Einstein N°356 D°8
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Miranda y Cap. Martinez
+                                </p>
+                                <p><i class='bx bxs-bed'> 1</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 1</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 40mt²</i>
+                                </p>
+                                <a href="Einstein3569.html"><button>INFO</button></a>
+                            </div>
+                        </div>
+
+                        <div class="post" data-category="3amba">
+
+                            <img src="/img/Alquileres/Casa abuelo/Casa abuelo - patio1.jpeg" class="popular__img"
+                                alt="Nobel398">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>$</span> 80 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Nobel N°398
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Miranda y Cap. Martinez
+                                </p>
+                                <p><i class='bx bxs-bed'> 2</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 1</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 98mt²</i>
+                                </p>
+                                <a href="Nobel398.html"><button>INFO</button></a>
+                            </div>
+
+                        </div>
+
+                        <div class="post" data-category="3amba">
+
+                            <img src="/img/Alquileres/Casa Magda/Frontal.jpeg" class="popular__img" alt="Einstein272">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>$</span> 80 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Einstein N°272
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Miranda y Arenales
+                                </p>
+                                <p><i class='bx bxs-bed'> 2</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 1</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 210mt²</i>
+                                </p>
+                                <a href="Einstein272.html"><button>INFO</button></a>
+                            </div>
+                        </div>
+
+                        <div class="post" data-category="3amba">
+
+                            <img src="/img/Alquileres/Casa Arenales/casa arenales - frontal.jpeg" class="popular__img"
+                                alt="Arenales">
+
+                            <div class="popular__data">
+
+
+                                <h2 class="popular__price">
+                                    <span>$</span> 65 000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Arenales N°1392
+                                </h3>
+                                <p>Entre las calles:</p>
+                                <p>Arenales esq. Feliz Iglesias
+                                </p>
+                                <p><i class='bx bxs-bed'> 3</i>
+                                    <i class='bx bxs-bath' style="margin-left: 15%"> 2</i>
+                                    <i class='bx bx-ruler' style="margin-left: 15%"> 110mt²</i>
+                                </p>
+                                <a href="Arenales1398.html"><button>INFO</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--==================== VALUE ====================-->
+                    <section class="value section" id="value">
+                        <div class="value__container container grid">
+                            <div class="value__content">
+                                <div class="value_data">
+                                    <span class="section__subtitle" style="font-size: 35px">El Valor</span>
+                                    <h2 class="section__title">
+                                        Que le damos al cliente<span>!</span>
+                                    </h2>
+                                    <p class="value__description">
+                                        Siempre brindando el mejor sevicio para tu tranquilidad.
+                                    </p>
+                                </div>
+
+
+                                <div class="value__accordion">
+                                    <div class="value__accordion-item">
+                                        <header class="value__accordion-header">
+                                            <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+                                            <h3 class="value__accordion-title">
+                                                Precios acordes al mercado.
+                                            </h3>
+                                            <div class="value__accordion-arrow">
+                                                <i class='bx bxs-down-arrow'></i>
+                                            </div>
+                                        </header>
+                                        <div class="value__accordion-content">
+                                            <p class="value__accordion-description">
+                                                Todos los precios en nuestras carteleras son gracias a
+                                                nuestras precisas
+                                                tasaciones
+                                                tanto para la venta como para la locacion.
+                                                Ya que contamos con precios reales del mercado en el momento
+                                                de poner un
+                                                precio.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="value__accordion-item">
+                                        <header class="value__accordion-header">
+                                            <i class='bx bxs-phone-call value__accordion-icon'></i>
+                                            <h3 class="value__accordion-title">
+                                                Más comunicacíon menos dudas.
+                                            </h3>
+                                            <div class="value__accordion-arrow">
+                                                <i class='bx bxs-down-arrow'></i>
+                                            </div>
+                                        </header>
+                                        <div class="value__accordion-content">
+                                            <p class="value__accordion-description">
+                                                Ya sea en la compra de una propiedad o en su locacion,
+                                                siempre surgen muchas dudas y las dudas llevan al miedo y a
+                                                la negacion.
+                                                Por eso es importante que haya una buena comunicacion
+                                                directa con las
+                                                personas
+                                                capaces
+                                                de despejar esas dudas y poder concretar una buena
+                                                operacion.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="value__accordion-item">
+                                        <header class="value__accordion-header">
+                                            <i class='bx bxs-check-square value__accordion-icon'></i>
+                                            <h3 class="value__accordion-title">
+                                                La seguridad en todo tipo de transacciones.
+                                            </h3>
+                                            <div class="value__accordion-arrow">
+                                                <i class='bx bxs-down-arrow'></i>
+                                            </div>
+                                        </header>
+                                        <div class="value__accordion-content">
+                                            <p class="value__accordion-description">
+                                                Sabemos la importancia de cerrar un negocio por eso siempre
+                                                contamos
+                                                con todos los medios posibles para que todo sea más claro,
+                                                contando con
+                                                una
+                                                escribania de prestigio y un grupo de gestores
+                                                profesionales.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </section>
+
+
+        <!--==================== CONTACTO ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contacto</span>
+                        <h2 class="section__title">
+                            Diferentes medios
+                        </h2>
+                        <p class="contact_description">
+                            ¿Estas teniendo problemas para encontrar tu hogar ideal?
+                            ¿Necesitas ayuda para comprar tu primer vivienda ?
+                            ¿necesitas que te administren tus propiedades ?
+                            <span class="contactus">Contacte con nosotros.</span>
+                        </p>
+                    </div>
+
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class='bx bxs-phone-call'></i>
+
+                            <h3 class="contact__card-title">
+                                Nuestro número: +54-11-6003-1134
+                            </h3>
+                            </p>
+                            <i class='bx bxl-whatsapp'></i>
+
+                            <h3 class="contact__card-title">
+                                Mensaje via WhatsApp:
+                                <form action="https://chatwith.io/es/s/minicucci-propiedades">
+                                    <input type="submit" value="Via directa" class="contact__card-wzp" />
+                                </form>
+                            </h3>
+
+                        </div>
+
+
+                        <div class="container py-5">
+                            <p>Y por cualquier tipo de consultas:</p>
+
+                            <div class="row py-5">
+                                <div class="col-lg-8">
+                                    <form action="https://formsubmit.co/nicolasminicucci@hotmail.com" method="POST"
+                                        id="my_form" />
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <input type="text" placeholder="Nombre" name="nombre"
+                                                class="form-control bg-light " required
+                                                aria-label="Sizing example input"
+                                                aria-describedby="inputGroup-sizing-sm">
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <input type="email" name="email" class="form-control bg-light"
+                                                placeholder="Email" required aria-label="Sizing example input"
+                                                aria-describedby="inputGroup-sizing-sm">
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <input type="text" placeholder="Número" name="numero"
+                                                class="form-control bg-light" required aria-label="Sizing example input"
+                                                aria-describedby="inputGroup-sizing-sm">
+                                        </div>
+                                    </div>
+                                    <div class="form-row py-3">
+                                        <div class="col-lg-12">
+                                            <label for="">Consulta:</label>
+                                            <textarea name="textarea" class="form-control bg-light p-4" id="" cols="30"
+                                                rows="10" required></textarea>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-row text-center justify-content-center">
+                                        <button type="submit" id="nextStep" class="btn1 mt-5">Enviar
+                                            mensaje</button>
+                                    </div>
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" style="color: white" class="footer__logo">
+                    Minicucccipropiedades <i class='bx bxs-home-alt-2'></i>
+                </a>
+                <p class="footer__description">
+                    Nicolás Minicucci. C.S.M. N°2643 - José C. Paz - Einstein 245 D°1
+                </p>
+            </div>
+            <div>
+                <h3 class="footer__title" style="color: white">
+                    Siguenos
+                </h3>
+                <div class="fb-like" data-href="https://www.facebook.com/Minicucccipropiedades" data-width="100"
+                    data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+    <!--========== BOOTSTRAP ==========-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
