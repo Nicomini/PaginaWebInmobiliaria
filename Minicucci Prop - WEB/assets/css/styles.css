@@ -1533,11 +1533,12 @@ margin-top: 20px;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
-  border: solid #455055;
+  border-radius: 5px;
 }
 
 .venta-category label:hover{
   opacity: 1;
+  box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);
 }
 
 .alquiler-category{
